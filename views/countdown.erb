@@ -1,0 +1,7 @@
+<form action="/set_count" method="post">
+  <h1 id="count" class="well"><%= @song_count %></h1>
+  <div class="form-actions">
+    <input type="submit" class="action btn btn-danger pull-left" value="increment" name="action" />
+    <input type="submit" class="action btn btn-warning pull-right" value="decrement" name="action" />
+  </div>
+</form>

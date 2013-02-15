@@ -1,0 +1,9 @@
+.navbar {
+  margin-top: 1em;
+}
+#count {
+  text-align: center;
+}
+.form-actions .action {
+  text-transform: capitalize;
+}
